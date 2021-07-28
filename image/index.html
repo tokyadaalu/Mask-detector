@@ -1,0 +1,859 @@
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            width: 5500px;
+            height: 3050px;
+            border: 10px solid rgb(248, 150, 4);
+            margin: auto;
+            background: url('image/backnew1.jpg') no-repeat center center/cover;
+            z-index: -1;
+
+        }
+
+        .logo {
+            float: left;
+
+        }
+
+        .center {
+            width: 1858px;
+            height: 398px;
+            background-color: rgb(200, 214, 4);
+            opacity: 0.9;
+            margin: auto;
+            margin-top: 10px;
+            margin-left: 321px;
+            float: left;
+            font-size: 90px;
+            color: rgba(17, 10, 10, 0.603);
+            font-weight: bolder;
+            padding-left: 256px;
+            border-radius: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            transition: 1s ease;
+        }
+
+        .center :hover {
+            opacity: 9;
+        }
+
+
+
+        .center h1 {
+            margin-top: 93px;
+            margin-left: 94px;
+        }
+
+        .center2 {
+            width: 1800px;
+            height: 278px;
+            background-color: rgb(43, 228, 182);
+            opacity: 0.9;
+            margin: auto;
+            margin-top: 20px;
+            margin-left: 411px;
+            float: left;
+            font-size: 104px;
+            color: white;
+            font-weight: bolder;
+            padding-left: 150px;
+            z-index: -1;
+            border-radius: 15px;
+            transition: 1s ease;
+            padding-bottom: 25px;
+
+
+        }
+
+        .center2 p {
+            background-color: rgb(43, 228, 182);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .qr {
+
+            width: 600px;
+            height: 461px;
+            background: url('image/QR1.jpeg') no-repeat center center/cover;
+         margin-right: 10px;
+            float: right;
+            margin-top: -729px;
+
+
+        }
+
+        .cloud1 img {
+            height: 100%;
+            width: 100%;
+            opacity: 0.8;
+            display: block;
+            transition: 1s ease;
+
+        }
+
+        .cloud1 img:hover {
+            opacity: 9;
+        }
+
+        .cloud1 {
+            height: 557px;
+            width: 822px;
+            position: absolute;
+            display: block;
+            top: 776px;
+            left: 936px;
+            float: left;
+
+
+
+        }
+
+        .cloud2 img {
+            height: 100%;
+            width: 100%;
+            opacity: 0.7;
+            display: block;
+            transition: 1s ease;
+
+        }
+
+        .cloud2 img:hover {
+            opacity: 9;
+        }
+
+
+        .cloud2 {
+            height: 500px;
+            width: 865px;
+            position: absolute;
+            top: 709px;
+            left: 368px;
+        }
+
+        .cloud3 img {
+            height: 100%;
+            width: 100%;
+            opacity: 0.8;
+            display: block;
+            transition: 1s ease;
+
+        }
+
+        .cloud3 img:hover {
+            opacity: 9;
+        }
+
+        .cloud3 {
+            height: 737px;
+            width: 1265px;
+            position: absolute;
+            top: 1720px;
+            left: 502px;
+
+
+        }
+
+        .cloud4 img {
+            height: 100%;
+            width: 100%;
+            opacity: 0.8;
+            display: block;
+            transition: 1s ease;
+
+        }
+
+        .cloud4 img:hover {
+            opacity: 9;
+        }
+
+        .cloud4 {
+            height: 672px;
+            width: 919px;
+            position: absolute;
+            top: 177px;
+            left: 1647px;
+
+        }
+
+        .right-box {
+            height: 754px;
+            width: 920px;
+            background-color: rgb(243, 137, 39);
+            border: 1px solid rgb(226, 162, 43);
+            border-radius: 89px;
+            opacity: 0.8;
+            position: absolute;
+            left: 2607px;
+            bottom: -552px;
+            font-size: 80px;
+            padding-top: 2opx;
+            padding: 30px;
+            color: black;
+            font-weight: bolder;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .right-box2 {
+            height: 1464px;
+            width: 1534px;
+            background-color: rgb(39, 236, 243);
+            border: 1px solid rgb(41, 162, 218);
+            border-radius: 89px;
+            display: flex;
+            flex-wrap: wrap;
+
+            position: absolute;
+            left: 3717px;
+            bottom: -552px;
+        }
+
+        .right-box3 {
+            height: 738px;
+            width: 1034px;
+            background-color: rgb(229, 243, 39);
+            border: 1px solid rgb(227, 230, 62);
+            border-radius: 89px;
+            opacity: 0.8;
+            float: right;
+            position: absolute;
+            left: 4120px;
+            bottom: 1065px;
+            font-size: 88px;
+            padding-top: 59px;
+            padding-left: 50px;
+            color: black;
+            font-weight: bolder;
+            justify-content: center;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .model {
+            height: 700px;
+            width: 500px;
+            background: url(image/Model.png) no-repeat center center/cover;
+            margin: 40px;
+
+        }
+
+        .circuit {
+            height: 660px;
+            width: 850px;
+            background: url(image/circut.jpeg) no-repeat center center/cover;
+            margin: 50px;
+
+        }
+
+        .block {
+            height: 600px;
+            width: 1550px;
+            background: url(image/block.jpeg) no-repeat center center/cover;
+            margin: 10px;
+
+
+        }
+
+        .mask {
+            width: 2400px;
+            height: 635px;
+            /*  background-color: rgb(4, 158, 63);*/
+
+            margin: auto;
+            margin-top: 300px;
+            margin-left: 635px;
+            float: left;
+            margin-left: 39%;
+            display: flex;
+            z-index: -1;
+            opacity: 0.9;
+
+
+        }
+
+        .mask1 {
+            height: 680px;
+            width: 680px;
+            border: 4px solid black;
+            background: url(image/photo1.jpg)no-repeat center center/cover;
+            margin-left: 15px;
+            transition: 1s ease;
+            margin: 30px;
+            box-shadow: 20px 30px rgb(161, 158, 158);
+        }
+
+        .mask1:hover {
+            height: 770px;
+            width: 800px;
+            border: 5px solid black;
+        }
+
+        .mask2 {
+            height: 680px;
+            width: 680px;
+            border: 4px solid black;
+            background: url(image/photo2.jpg)no-repeat center center/cover;
+            margin-left: 15px;
+            transition: 1s ease;
+            margin: 30px;
+            box-shadow: 20px 30px rgb(161, 158, 158);
+        }
+
+        .mask2:hover {
+            height: 770px;
+            width: 800px;
+            border: 5px solid black;
+        }
+
+        .mask3 {
+            height: 630px;
+            width: 630px;
+            border: 3px solid black;
+            background: url(image/photo3.jpg)no-repeat center center/cover;
+            margin-left: 15px;
+            transition: 1s ease;
+        }
+
+        .mask3:hover {
+            height: 770px;
+            width: 800px;
+            border: 5px solid black;
+        }
+
+        .mask4 {
+            height: 630px;
+            width: 630px;
+            border: 3px solid black;
+            background: url(image/photo4.jpg)no-repeat center center/cover;
+            margin-left: 15px;
+            transition: 1s ease;
+        }
+
+        .mask4:hover {
+            height: 770px;
+            width: 800px;
+            border: 5px solid black;
+        }
+
+        #body1 {
+
+            animation-name: example;
+            animation-duration: 1s;
+            animation-timing-function: ease-in;
+        }
+
+        #body11 {
+
+            animation-name: example;
+            animation-duration: 3s;
+            animation-timing-function: ease-in;
+        }
+
+        #body2 {
+
+            animation-name: example;
+            animation-duration: 5s;
+            animation-timing-function: ease-in;
+        }
+
+        #body3 {
+
+            animation-name: example;
+            animation-duration: 3id="body1";
+            animation-timing-function: ease-in;
+            animation-duration: 6s;
+        }
+
+        @keyframes example {
+            0% {
+                opacity: 0.1;
+            }
+
+            10% {
+                opacity: 0.050;
+            }
+
+            30% {
+                opacity: 0.1;
+            }
+
+            50% {
+                opacity: 0.2;
+            }
+
+            70% {
+                opacity: 0.3;
+            }
+
+            80% {
+                opacity: 0.4;
+            }
+
+            90% {
+                opacity: 0.5;
+            }
+
+            100% {
+                opacity: 0.7;
+            }
+        }
+
+
+
+
+
+        @media only screen and (max-width: 4072px) {
+            .right-box3 {
+                position: absolute;
+                left: 3823px;
+                bottom: 953px;
+            }
+
+            .right-box2 {
+                position: absolute;
+                left: 3617px;
+                bottom: -552px;
+                width: 1354px;
+            }
+
+            .model {
+                height: 500px;
+                width: 400px;
+                background: url(image/Model.png) no-repeat center center/cover;
+                margin: 40px;
+
+            }
+
+            .circuit {
+                height: 530px;
+                width: 640px;
+                background: url(image/circut.jpeg) no-repeat center center/cover;
+                margin: 50px;
+
+            }
+
+            .block {
+                height: 600px;
+                width: 1350px;
+                background: url(image/block.jpeg) no-repeat center center/cover;
+                margin: 20px;
+                margin-left: 40px;
+
+
+            }
+
+        }
+
+        @media only screen and (max-width: 1380px) {
+            .container {
+                width: 5200px;
+                height: 2700px;
+
+            }
+
+            .right-box3 {
+                position: absolute;
+                left: 3823px;
+                bottom: 953px;
+                height: 538px;
+                width: 834px;
+                font-size: 58px;
+            }
+
+            .right-box2 {
+                position: absolute;
+                left: 3287px;
+                bottom: -552px;
+                width: 1054px;
+                height: 1464px;
+                bottom: -281px;
+                width: 1372px;
+                ;
+                height: 1210px;
+            }
+
+            .model {
+                height: 500px;
+                width: 409px;
+                background: url(image/Model.png) no-repeat center center/cover;
+                margin: 20px;
+
+            }
+
+            .circuit {
+                height: 530px;
+                width: 795px;
+                background: url(image/circut.jpeg) no-repeat center center/cover;
+                margin: 22px;
+
+            }
+
+            .block {
+                height: 500px;
+                width: 1865px;
+                background: url(image/block.jpeg) no-repeat center center/cover;
+                margin: 20px;
+                margin-left: 10px;
+
+
+            }
+
+            .right-box3 {
+                left: 3823px;
+                bottom: 1207px;
+                height: 543px;
+            }
+
+            .right-box {
+                height: 605px;
+                width: 723px;
+                background-color: rgb(243, 137, 39);
+                border: 1px solid rgb(226, 162, 43);
+                border-radius: 89px;
+                opacity: 0.8;
+                position: absolute;
+                left: 2390px;
+                bottom: -242px;
+                font-size: 69px;
+                padding-top: 2opx;
+                padding: 30px;
+                color: black;
+                font-weight: bolder;
+                justify-content: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+
+            .cloud3 {
+                height: 707px;
+                width: 1233px;
+                top: 1619px;
+                left: 485px;
+
+            }
+
+            .cloud4 {
+                left: 1442px;
+                top: -44px;
+                height: 614px;
+                width: 739px;
+            }
+
+            .center {
+                width: 1784px;
+                height: 340px;
+                font-size: 78px;
+            }
+
+            .center2 {
+                width: 1727px;
+                height: 278px;
+                font-size: 97px;
+            }
+
+
+            .mask1 {
+                height: 621px;
+                width: 658px;
+            }
+
+            .mask2 {
+                height: 621px;
+                width: 658px;
+            }
+
+            .mask {
+                margin-top: 193px;
+
+            }
+
+            .cloud2 {
+                top: 610px;
+                left: 154px;
+                width: 688px;
+            }
+
+            .cloud1 {
+                top: 611px;
+                left: 597px;
+                width: 762px;
+            }
+        }
+
+        .qr {
+
+            width: 400px;
+            height: 481px;
+            background: url('image/QR1.jpeg') no-repeat center center/cover;
+           
+            float: right;
+            margin-top: -729px;
+
+
+        }
+
+        @media only screen and (max-width: 1380px) {
+            .container {
+                width: 4900px;
+                height: 2500px;
+
+            }
+
+            .right-box3 {
+                left: 3483px;
+                bottom: 1246px;
+            }
+
+            .logo img {
+                height: 421px;
+            }
+
+            .center {
+                width: 1521px;
+                height: 291px;
+                font-size: 72px;
+                margin-left: 607px;
+            }
+
+            .center2 {
+                width: 1513px;
+                height: 217px;
+                font-size: 86px;
+                margin-left: 679px;
+            }
+
+            .cloud2 {
+                height: 452px;
+                top: 544px;
+                left: 106px;
+            }
+
+            .cloud1 {
+                height: 528px;
+                top: 558px;
+                left: 565px;
+            }
+
+            .cloud3 {
+                height: 654px;
+                width: 1165px;
+                top: 1482px;
+                left: 332px;
+            }
+
+            .right-box {
+                bottom: -357px;
+                height: 531px;
+                font-size: 62px;
+            }
+
+            .right-box3 {
+                left: 3636px;
+                bottom: 1093px;
+                height: 494px;
+            }
+
+            .mask1 {
+                height: 590px;
+                width: 658px;
+                margin: 12px;
+            }
+
+            .mask2 {
+                height: 590px;
+                width: 658px;
+                margin: 12px;
+            }
+
+            .right-box2 {
+                width: 1288px;
+            }
+
+        }
+
+        @media only screen and (max-width: 1231px) {
+            .container {
+                width: 4500px;
+                height: 2300px;
+
+            }
+
+            .logo img {
+                height: 400px;
+            }
+
+            .center {
+                width: 1275px;
+                height: 260px;
+                font-size: 58px;
+                margin-left: 607px;
+            }
+
+            .center2 {
+                width: 1228px;
+                height: 274px;
+                font-size: 86px;
+                margin-left: 730px;
+                padding-left: 49px;
+                padding-bottom: 61px;
+            }
+
+            .right-box {
+                bottom: -389px;
+                height: 531px;
+                font-size: 62px;
+                left: 2021px;
+            }
+
+            .cloud3 {
+                height: 628px;
+                width: 1121px;
+                top: 1287px;
+                left: 322px;
+            }
+
+            .cloud4 {
+                left: 1270px;
+                top: 79px;
+                height: 596px;
+                width: 688px;
+            }
+
+            .mask1 {
+                height: 482px;
+                width: 634px;
+                margin: 12px;
+            }
+
+            .mask1:hover {
+                height: 895px;
+                width: 654px;
+                border: 5px solid black;
+            }
+
+            .mask2 {
+                height: 482px;
+                width: 634px;
+                margin: 12px;
+            }
+
+            .mask2:hover {
+                height: 895px;
+                width: 654px;
+                border: 5px solid black;
+            }
+
+            .right-box3 {
+                left: 3293px;
+                bottom: 960px;
+                height: 494px;
+            }
+
+            .right-box2 {
+                position: absolute;
+                left: 2892px;
+                bottom: -384px;
+                height: 1152px;
+
+            }
+
+            .qr {
+
+                width: 330px;
+                height: 405px;
+                background: url('image/QR1.jpeg') no-repeat center center/cover;
+               
+                float: right;
+                margin-top: -729px;
+            }
+
+            
+
+           
+          
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+    <script>
+        alert("View this webpage on your pc screen.Mobile view is not advised");
+    </script>
+
+
+
+    <div class="container">
+
+        <div class="logo"><img src="image/logo.png" alt=""></div>
+
+        <div class="center" id="body1">
+            <h1>DESIGN THINKING</h1>
+        </div>
+        <div class="center2" id="body11">
+            <p>MASK AND TEMPERATURE DETECTOR</p>
+        </div>
+
+        <div class="mask" id="body3">
+
+            <div class="mask1"></div>
+            <div class="mask2"></div>
+            <!-- <div class="mask3"></div>
+
+            <div class="mask4"></div>>-->
+
+
+
+
+        </div>
+        <div class="qr"></div>
+
+
+
+
+        <div class="cloud1" id="body2"><img src="image/cloud12.png" alt="">
+        </div>
+        <div class=" cloud2 " id="body2"><img src="image/cloud11.png " alt="">
+        </div>
+        <div class=" cloud3 " id="body2"><img src="image/cloud13.png" alt="">
+            <div>
+                <div class=" cloud4 " id="body2"><img src="image/cloud14.png" alt=""></div>
+                <div class=" right-box " id=" body3">
+                    <p>Why not create a device which can detect weater a person wearing mask or not and allow him
+                        enterance to the required place</p>
+                </div>
+                <div class="right-box2" id="body3">
+                    <div class="model"></div>
+                    <div class="circuit"></div>
+                    <div class="block"></div>
+                </div>
+                <div class="right-box3" id="body3">Virtual simulation worked successfully it provides chances for future
+                    development and construction of non virtual prototype. </div>
+
+                <!--   
+
+
+                        <div class=" person" id="body1"></div>
+
+        <div class=" group" id="body1"></div>
+        <div class="tool" id="body1"></div>
+       
+       
+        <div class=" cloud4" id="body3"><img src="image/could.png"" alt="">
+            <div>  
+                <div class=" right-box3 shake" id="body3"></div>-->
+            </div>
+</body>
+
+</html>
